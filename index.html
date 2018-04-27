@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Events!</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="reset.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Hangman Game</h1>
+      <p>Guess only one Letter!</p>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">Word to Guess: </h4>
+      </div>
+
+      <div class="panel-body">
+        <h4 id="numBlanks"></h4>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h4>Letters Guessed: </h4>
+          <span id="lettersGuessed-text"></span>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h4>Wrong Guess:</h4>
+          <span id="wrongLetters-text">#</span>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h4>Guesses Left: </h4>
+          <span id="guessesLeft-text">#</span>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h4>Wins: </h4>
+          <span id="wins">#</span>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h4>Losses: </h4>
+          <span id="loss-text">#</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
